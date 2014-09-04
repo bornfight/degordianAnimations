@@ -30,7 +30,6 @@ var DAnimation = ({
                     if (Math.abs(z) < 1e-3) break;
                     x -= z / xDeriv(x);
                 }
-                console.log(x);
                 return x;
             };
         return function(t) {
